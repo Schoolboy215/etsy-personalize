@@ -1,0 +1,20 @@
+{
+  "name": "etsy-personalize",
+  "version": "0.0.1",
+  "description": "Simple system for matching custom uploaded images to order numbers",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start" : "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Schoolboy215/etsy-personalize.git"
+  },
+  "author": "James McKay",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Schoolboy215/etsy-personalize/issues"
+  },
+  "homepage": "https://github.com/Schoolboy215/etsy-personalize#readme"
+}

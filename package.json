@@ -2,10 +2,10 @@
   "name": "etsy-personalize",
   "version": "0.0.1",
   "description": "Simple system for matching custom uploaded images to order numbers",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start" : "node index.js"
+    "start": "node ./bin/www"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,14 @@
   "bugs": {
     "url": "https://github.com/Schoolboy215/etsy-personalize/issues"
   },
-  "homepage": "https://github.com/Schoolboy215/etsy-personalize#readme"
+  "homepage": "https://github.com/Schoolboy215/etsy-personalize#readme",
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "ejs": "~2.6.1",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1",
+    "node-sass-middleware": "0.11.0"
+  }
 }
